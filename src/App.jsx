@@ -1,13 +1,10 @@
-import { useState } from 'react'
+import Hero from "./component/hero"
 
 
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
     <>
-    
-       <h1>hii</h1>
+  <Hero/>
     </>
   )
 }
